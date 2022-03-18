@@ -25,6 +25,9 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 header h1 {
@@ -39,18 +42,22 @@ header h1 .seo {
 nav {
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    order: 2;
 }
 
-header ul {
+nav ul {
     list-style-type: none;
+    display: flex;
 }
 
-header ul li {
-    display: inline-block;
+nav ul li {
     margin-left: 25px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* Hero */
