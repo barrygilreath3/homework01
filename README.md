@@ -37,4 +37,6 @@ Then, I was tasked with creating a Github page from my repository to go live on 
 
 ## Screenshot
 
+![Screenshot](/assets/images/screenshot.png)
+
 ## Link to Application
